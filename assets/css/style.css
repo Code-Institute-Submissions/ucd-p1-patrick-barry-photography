@@ -13,12 +13,8 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-
+    padding: 0;
 }
-
 
 /*----------------------------------------------Navbar*/
 
@@ -104,6 +100,13 @@ a {
 }
 
 
+/* --------------------------------------------Typography Extras */
+.testimonial-signature {
+    color: #00b6be;
+    font-family: serif;
+    font-size: 18px;
+    font-style: italic;
+}
 
 
 
