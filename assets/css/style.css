@@ -109,10 +109,37 @@ a {
 }
 
 
+/*-------------------- Contact from Rosie Odenkirk CV project*/
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    background-color: #00b6be;
+    color: #fafafa;
+}
+
+
 /*----------------------------------------------Media Queries*/
 
 @media(max-width: 768px) {
     .logo {
         min-height: 150px;
+    }
+    .center-form {
+        padding-top: 30px;
+        min-height: 240px;
+        margin: 0 auto;
+        max-width: 70%;
+    }
+    .contact-column {
+        padding: 0 30px 30px;
+        float: none;
+        display: table-cell;
     }
 }

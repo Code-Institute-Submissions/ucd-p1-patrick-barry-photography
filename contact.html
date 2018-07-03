@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+</head>
+
+<body>
+
+<div class="container-fluid">
+    
+    <header class="container-fluid header">
+        <div class="row">
+            <div class="col-lg-12">
+                <a href="index.html">
+                    <div class="header"></div>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <nav id="mainNav" class="navbar navbar-inverse">
+        <div class="container">
+            
+            <div id="hamburger" class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navHeaderCollapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+
+            <div id="navHeaderCollapse" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li>
+                        <a href="index.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Services <span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="people.html">People</a></li>
+                                <li><a href="places.html">Places</a></li>
+                                <li><a href="animals.html">Animals</a></li>
+                                <li><a href="things.html">Things</a></li>
+                            </ul>
+                        </li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+
+    <div class="container">
+        <h3 class="text-center">Contact Patrick Barry</h3><br>
+        <contact class="container-fluid">
+            <div class="row">
+                <div class="center-form">
+                    <form>
+                        <input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required />
+                        <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required />
+                        <textarea rows="5" name="projectsummary" class="form-control" id="projectsummary" placeholder="Project Description" required /></textarea>
+                        <button type="submit" class="btn btn-secondary center-block">Send Project Request</button>
+                    </form>
+                </div>
+            </div>
+        </contact>
+    </div>
+
+    <div class="navbar navbar-default sticky-background hidden-xs hidden-sm">
+        <div class="container">
+            <h3 class="wannabook-text">
+                <a href="#">Wanna book? Let's Talk</a>
+            </h3>
+        </div>
+    </div>
+
+    <div class="navbar navbar-default navbar-fixed-bottom sticky-background hidden-md hidden-lg hidden-xl">
+        <div class="container">
+            <h3 class="wannabook-text">
+                <a href="#">Wanna book? Let's Talk</a>
+            </h3>
+        </div>
+    </div>
+
+    <footer class="container-fluid text-center footer-block">
+        <h4>Patrick Barry Photography</h4>
+        <h5>123 Patrick Street, Barrysville, County Cork.</h5>
+        <h5>Phone: 00 353 123 456 789</h5>
+    </footer>
+
+</div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
