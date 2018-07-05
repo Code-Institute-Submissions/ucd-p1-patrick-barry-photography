@@ -1,5 +1,9 @@
 /*----------------------------------------------Logo*/
 
+.container-fluid {
+    padding: 0;
+}
+
 /* Remove the logo's default margin-bottom and rounded borders */
 .header {
     margin-bottom: 0;
@@ -71,6 +75,7 @@ a {
 /* -------------------------------------------- Wanna Book Sticky */
 .wannabook-text {
     color: #FFFFFF;
+    line-height: 40px;
     text-align: center;
     padding-bottom: 10px;
 }
@@ -78,14 +83,22 @@ a {
 .sticky-background {
     background-color: #00b6be;
     margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+#sticky-button {
+    margin: 0 auto;
+    width: 90%;
+    border-radius: 10px;
 }
 
 
 /* ------------------------------------------------ Footer Block */
 .footer-block {
     background-color: #222222;
+    box-shadow: 0 50vh 0 50vh #222;
     min-height: 250px;
-    padding-top: 10px;
+    padding-top: 15px;
     color: #ffffff;
 }
 
