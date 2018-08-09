@@ -18,32 +18,81 @@ The goal of which is to -
 * They want to make use of their client testimonials (real people, real results) to assure other potential clients of their past successes and their likability factor.
 * The photo content should be WOW as opposed to overkill (too much).
 * The experience should be easily navigable with minimal effort/clicks to contact.
- 
+
+https://github.com/barra1212/ucd-p1-patrick-barry-photography/blob/master/documentation/client-considerations.pdf
+
+<hr/>
+
+
 ## UX
 
+The project needs to be clean and minimal in design to reflect the style of photography favoured by the client and most sought after by his clients in turn.
 
- 
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+#### User Stories
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
+* As someone looking for a wedding photographer,<br>
+Ann Walsh from Bandon wants to find a photographer that<br>
+stands out from the crowd among the hundreds that she sees online.<br>
+<b>Achieved by striking colour scheme and large logo in header</b>
 
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+* As a amateur photographer,<br>
+John Allen wants to quickly see what a photographer deems their<br>
+best work up front and centre on a photography website homepage.<br>
+<b>Achieved by photography categories being identified by an image</b>
+
+* As someone looking for a photographer, and not very trusting by nature,<br>
+Mary from Waterford wants to see genuine client testimonials<br>
+which reassure her before committing.<br>
+<b>Achieved by client testimonials appearing below relevant photography category</b>
+
+* As someone who hates all the pinks/purples of most sites that target the wedding industry,<br>
+Kate is always more inclined to stay on a site that is<br>
+beautifully minimal and well designed than one that is “pretty in pink”<br>
+and full of endless services/offers.<br>
+<b>Achieved by neutral colour scheme appealing to both men and women, and by less frills overall</b>
+
+https://github.com/barra1212/ucd-p1-patrick-barry-photography/blob/master/documentation/user-stories.pdf
+
+<hr/>
+
+#### Design Considerations
+
+Some thoughts as a designer beginning this project.
+
+https://github.com/barra1212/ucd-p1-patrick-barry-photography/blob/master/documentation/design-considerations.pdf
+
+<hr/>
+
+#### Site Navigation
+
+Considering the minimalistic requirement of the client, very few pages are used and the navigation is clean.
+
+https://github.com/barra1212/ucd-p1-patrick-barry-photography/blob/master/documentation/site-navigation.pdf
+
+<hr/>
+
+#### Wireframe Mockups
+
+See document linked in below showing mobile first approach how the site should appear firstly on smaller mobiles, through to tablet, then desktop.
+Some divs will utilise Bootstrap hidden class to disappear on mobile so page content is not too large (tall).
+
+https://github.com/barra1212/ucd-p1-patrick-barry-photography/blob/master/documentation/wireframe-mockups.pdf
+
+<hr/>
+
 
 ## Features
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+In keeping with the clients desires, this website is not heavy on features, but works perfectly thus creating a positive emotional response for the user.
  
-### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
+- Logo - New unique logo created for the client.
+- Menu - Neat small menu, collapsing to a centred hamburger style menu on mobiles.
+- Grow on Hover - Small animation on hovered images.
+- Testimonials - Prominent on homepage.
+- Call to Action - Wanna Book is a constant throughout the site, and becomes sticky (to bottom) on mobile devices.
 
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
+<hr/>
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
-
-### Features Left to Implement
-- Another feature idea
 
 ## Technologies Used
 
