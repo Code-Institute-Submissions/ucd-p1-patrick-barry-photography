@@ -32,24 +32,20 @@ The project needs to be clean and minimal in design to reflect the style of phot
 
 * As someone looking for a wedding photographer,<br>
 Ann Walsh from Bandon wants to find a photographer that<br>
-stands out from the crowd among the hundreds that she sees online.<br>
-<b>Achieved by striking colour scheme and large logo in header</b>
+stands out from the crowd among the hundreds that she sees online.
 
 * As a amateur photographer,<br>
 John Allen wants to quickly see what a photographer deems their<br>
-best work up front and centre on a photography website homepage.<br>
-<b>Achieved by photography categories being identified by an image</b>
+best work up front and centre on a photography website homepage.
 
 * As someone looking for a photographer, and not very trusting by nature,<br>
 Mary from Waterford wants to see genuine client testimonials<br>
-which reassure her before committing.<br>
-<b>Achieved by client testimonials appearing below relevant photography category</b>
+which reassure her before committing.
 
 * As someone who hates all the pinks/purples of most sites that target the wedding industry,<br>
 Kate is always more inclined to stay on a site that is<br>
 beautifully minimal and well designed than one that is “pretty in pink”<br>
-and full of endless services/offers.<br>
-<b>Achieved by neutral colour scheme appealing to both men and women, and by less frills overall</b>
+and full of endless services/offers.
 
 https://github.com/barra1212/ucd-p1-patrick-barry-photography/blob/master/documentation/user-stories.pdf
 
@@ -90,58 +86,122 @@ In keeping with the clients desires, this website is not heavy on features, but 
 - Grow on Hover - Small animation on hovered images.
 - Testimonials - Prominent on homepage.
 - Call to Action - Wanna Book is a constant throughout the site, and becomes sticky (to bottom) on mobile devices.
+- Contact Page form is neat and easy to use.
 
 <hr/>
 
 
 ## Technologies Used
 
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+This site is constructed in HTML using a simple bootstrap framework boilerplate template.
+
+Bootstrap CSS is used throughout and further styled with the file - /assets/css/style.css
 
 - [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
+    - The project uses **JQuery** to enable hamburger dropdown menu on smaller mobile devices.
 
 
 ## Testing
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+##### User Stories addressed
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+* As someone looking for a wedding photographer, Ann Walsh from Bandon wants to find a photographer that
+stands out from the crowd among the hundreds that she sees online.<br>
+<b>Achieved by striking colour scheme and large logo in header</b>
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+* As a amateur photographer, John Allen wants to quickly see what a photographer deems their
+best work up front and centre on a photography website homepage.<br>
+<b>Achieved by photography categories being identified by an image</b>
 
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
+* As someone looking for a photographer, and not very trusting by nature,
+Mary from Waterford wants to see genuine client testimonials which reassure her before committing.<br>
+<b>Achieved by client testimonials appearing below relevant photography category</b>
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+* As someone who hates all the pinks/purples of most sites that target the wedding industry,
+Kate is always more inclined to stay on a site that is beautifully minimal and well designed than one that is “pretty in pink”
+and full of endless services/offers.<br>
+<b>Achieved by neutral colour scheme appealing to both men and women, and by less frills overall</b>
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+<hr/>
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+##### Initial-Scale Beware!
+
+The main issue encountered was when media queries would not work. The site did not behave responsively.
+The logo did not scale down properly and ```divs``` did flow as desired.
+My mentor and student support were stumped also and unable to find the solution.
+
+After much online research of the issue I found a forum thread on www.stackoverflow.com which provided the solution.
+
+###### My code below (1.0) broke my media queries -
+
+```
+meta name="viewport" content="width=device-width, initial-scale=1.0"
+```
+
+###### Changing "1.0" to "1" fixed the issue -
+
+```
+meta name="viewport" content="width=device-width, initial-scale=1"
+```
+Lesson learned!
+
+<hr/>
+
+##### Responsive Testing
+Responsive behaviour of website tested on a random selection of phones, tablets and desktop browsers using https://www.browserstack.com/
+extension in Firefox.
+
+<hr/>
+
+##### HTML Code Validation
+HTML code tested using open source tool at https://validator.w3.org/
+
+*RESULT - Document checking completed. No errors or warnings to show.*
+
+<hr/>
+
+##### CSS Code Validation
+CSS code tested using open source tool at https://jigsaw.w3.org/css-validator/
+
+*RESULT - Congratulations! No Error Found.*
+
+<hr/>
+
+##### Contact Form HTML Code Validation
+
+Fields tested, form will not send unless fields contain data. ```required```
+
+Email field tested, form will not send unless email field contains @. ```input type="email"```
+
+<hr/>
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+Website is constructed in Cloud9 and linked to a Github repository.
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
+```git commits``` performed randomly throughout web construction.
 
-In addition, if it is not obvious, you should also describe how to run your code locally.
+Github pages activated on repository for live viewing -
 
+https://barra1212.github.io/ucd-p1-patrick-barry-photography/
+
+<hr/>
 
 ## Credits
 
-### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+#### Content
+The website text is written (made up) by the developer, rather than using Lorem Ispum
 
-### Media
-- The photos used in this site were obtained from ...
+#### Media
+The photos used in this site were obtained from ...
+- Developers own photographs
+- Developers acquaintance's photographs with their permission
+- www.images.google.com
 
-### Acknowledgements
+#### Acknowledgements
 
-- I received inspiration for this project from X
+Colour Psychology credit to https://neilpatel.com/blog/psychology-of-color-and-conversions/
+
+Hover Grow functionality credit to http://ianlunn.github.io/Hover/#effects
+
+Contact Form credit to Code Institute tutorial "Rosie Odenkirk CV project".
